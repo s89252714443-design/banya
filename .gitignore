@@ -1,0 +1,12 @@
+# Системные файлы
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Редакторы
+.vscode/
+.idea/
+*.swp
+
+# Зависимости, если появятся
+node_modules/
