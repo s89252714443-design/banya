@@ -11,57 +11,39 @@
   filter: brightness(0.88);
 }
 
-/* Тексты первого экрана, добавленные вручную: надпись над заголовком слева
-   и две части вводного текста справа. Набор у всех одинаковый — как у прежнего
-   абзаца; отличается только выключка. */
+/* Надпись над заголовком первого экрана — добавлена вручную,
+   поэтому её оформление живёт здесь. */
 #rec702381407 .tn-elem[data-elem-id="1800000000002"],
-#rec718123242 .tn-elem[data-elem-id="1800000000002"],
-#rec702381407 .tn-elem[data-elem-id="1800000000003"],
-#rec718123242 .tn-elem[data-elem-id="1800000000003"],
-#rec702381407 .tn-elem[data-elem-id="1800000000004"],
-#rec718123242 .tn-elem[data-elem-id="1800000000004"] {
+#rec718123242 .tn-elem[data-elem-id="1800000000002"] {
   z-index: 18;
 }
 
 #rec702381407 .tn-elem[data-elem-id="1800000000002"] .tn-atom,
-#rec718123242 .tn-elem[data-elem-id="1800000000002"] .tn-atom,
-#rec702381407 .tn-elem[data-elem-id="1800000000003"] .tn-atom,
-#rec718123242 .tn-elem[data-elem-id="1800000000003"] .tn-atom,
-#rec702381407 .tn-elem[data-elem-id="1800000000004"] .tn-atom,
-#rec718123242 .tn-elem[data-elem-id="1800000000004"] .tn-atom {
+#rec718123242 .tn-elem[data-elem-id="1800000000002"] .tn-atom {
   color: #efe8bf;
-  font-size: 12px;
+  font-size: 16px;
   font-family: 'Manrope', Arial, sans-serif;
   font-weight: 500;
   letter-spacing: -0.2px;
   line-height: 1.2;
-  text-transform: uppercase;
-}
-
-/* Стартовое состояние для анимации. В Tilda такое правило прописано отдельно
-   под каждый id, поэтому для новых элементов его нужно добавить вручную —
-   иначе текст виден сразу и «проявляться» ему уже неоткуда. */
-#rec702381407 .tn-elem.t396__elem--anim-hidden[data-elem-id="1800000000002"],
-#rec718123242 .tn-elem.t396__elem--anim-hidden[data-elem-id="1800000000002"],
-#rec702381407 .tn-elem.t396__elem--anim-hidden[data-elem-id="1800000000003"],
-#rec718123242 .tn-elem.t396__elem--anim-hidden[data-elem-id="1800000000003"],
-#rec702381407 .tn-elem.t396__elem--anim-hidden[data-elem-id="1800000000004"],
-#rec718123242 .tn-elem.t396__elem--anim-hidden[data-elem-id="1800000000004"] {
-  opacity: 0;
-}
-
-/* надпись над заголовком — по левому краю */
-#rec702381407 .tn-elem[data-elem-id="1800000000002"] .tn-atom,
-#rec718123242 .tn-elem[data-elem-id="1800000000002"] .tn-atom {
   text-align: left;
 }
 
-/* вводный текст справа — по правому краю */
-#rec702381407 .tn-elem[data-elem-id="1800000000003"] .tn-atom,
-#rec718123242 .tn-elem[data-elem-id="1800000000003"] .tn-atom,
-#rec702381407 .tn-elem[data-elem-id="1800000000004"] .tn-atom,
-#rec718123242 .tn-elem[data-elem-id="1800000000004"] .tn-atom {
-  text-align: right;
+/* Стартовое состояние для анимации. В Tilda такое правило прописано отдельно
+   под каждый id, поэтому для нового элемента его нужно добавить вручную —
+   иначе текст виден сразу и «проявляться» ему уже неоткуда. */
+#rec702381407 .tn-elem.t396__elem--anim-hidden[data-elem-id="1800000000002"],
+#rec718123242 .tn-elem.t396__elem--anim-hidden[data-elem-id="1800000000002"] {
+  opacity: 0;
+}
+
+/* На узких экранах 16px не помещаются в сетку 320 — уменьшаем,
+   иначе надпись переносится на вторую строку и наезжает на заголовок. */
+@media screen and (max-width: 639px) {
+  #rec702381407 .tn-elem[data-elem-id="1800000000002"] .tn-atom,
+  #rec718123242 .tn-elem[data-elem-id="1800000000002"] .tn-atom {
+    font-size: 13px;
+  }
 }
 
 /* Пункты меню при наведении — тот же эффект, что у «Забронировать».
