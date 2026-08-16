@@ -10,3 +10,36 @@
 .tn-elem__7181232421710171367340 .tn-atom {  /* мобильный блок */
   filter: brightness(0.88);
 }
+
+/* Кнопка «Забронировать» в меню — добавлена вручную, поэтому оформление здесь.
+   Внешний вид и поведение при наведении повторяют кнопку «Консультация». */
+#rec702381407 .tn-elem[data-elem-id="1800000000001"],
+#rec718123242 .tn-elem[data-elem-id="1800000000001"] {
+  color: #efe8bf;
+  text-align: center;
+  z-index: 20;
+}
+
+#rec702381407 .tn-elem[data-elem-id="1800000000001"] .tn-atom,
+#rec718123242 .tn-elem[data-elem-id="1800000000001"] .tn-atom {
+  color: #efe8bf;
+  font-size: 12px;
+  font-family: 'Manrope', Arial, sans-serif;
+  font-weight: 500;
+  letter-spacing: -0.3px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: transparent;
+  border-radius: 1000px;
+  background-color: #9c5d3c;
+  background-position: center center;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+#rec702381407 .tn-elem[data-elem-id="1800000000001"] .tn-atom:hover,
+#rec718123242 .tn-elem[data-elem-id="1800000000001"] .tn-atom:hover {
+  background-color: #f0e9c0;
+  background-image: none;
+  border-color: #f0e9c0;
+  color: #9c5d3c;
+}
