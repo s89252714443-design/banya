@@ -132,3 +132,13 @@
     display: none;
   }
 }
+
+/* Background of the "Настоящая дровяная парная" card. */
+#rec703997295 .tn-elem[data-elem-id="1707481596252"] .tn-atom {
+  background-color: #6e6b41;
+  background-image: none !important;
+}
+
+#rec703997295 .tn-elem[data-elem-id="1707481596255"] .tn-atom {
+  color: #f2ecc5;
+}
