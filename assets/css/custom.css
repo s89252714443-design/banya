@@ -159,3 +159,14 @@
 #rec703997295 .tn-elem[data-elem-id="1707482540238"] .tn-atom {
   color: #f2f0e6;
 }
+
+/* Background and text of the "Сено и тишина" card. */
+#rec703997295 .tn-elem[data-elem-id="1707485168517"] .tn-atom {
+  background-color: #b07e1e;
+  background-image: none !important;
+}
+
+#rec703997295 .tn-elem[data-elem-id="1707485168521"] .tn-atom,
+#rec703997295 .tn-elem[data-elem-id="1707485168525"] .tn-atom {
+  color: #101b17;
+}
