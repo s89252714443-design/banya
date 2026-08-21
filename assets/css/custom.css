@@ -148,3 +148,14 @@
   background-color: #d1c7b5;
   background-image: none !important;
 }
+
+/* Background and text of the "Крытая веранда" card. */
+#rec703997295 .tn-elem[data-elem-id="1707482540231"] .tn-atom {
+  background-color: #9c5d3c;
+  background-image: none !important;
+}
+
+#rec703997295 .tn-elem[data-elem-id="1707482540235"] .tn-atom,
+#rec703997295 .tn-elem[data-elem-id="1707482540238"] .tn-atom {
+  color: #f2f0e6;
+}
