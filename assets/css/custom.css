@@ -142,3 +142,9 @@
 #rec703997295 .tn-elem[data-elem-id="1707481596255"] .tn-atom {
   color: #f2ecc5;
 }
+
+/* Background of the "Комната отдыха" card. */
+#rec703997295 .tn-elem[data-elem-id="1707482507264"] .tn-atom {
+  background-color: #d1c7b5;
+  background-image: none !important;
+}
