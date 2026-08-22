@@ -145,8 +145,13 @@
 
 /* Background of the "Комната отдыха" card. */
 #rec703997295 .tn-elem[data-elem-id="1707482507264"] .tn-atom {
-  background-color: #d1c7b5;
+  background-color: #efe8bf;
   background-image: none !important;
+}
+
+#rec703997295 .tn-elem[data-elem-id="1707482507268"] .tn-atom,
+#rec703997295 .tn-elem[data-elem-id="1707482507273"] .tn-atom {
+  color: #6e6b41;
 }
 
 /* Background and text of the "Крытая веранда" card. */
