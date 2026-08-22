@@ -181,6 +181,45 @@
   color: #efe8bf !important;
 }
 
+/* Light text and controls on the olive 4-person rental surface. */
+#rec705087438 .tn-elem[data-elem-id="1707497694245"] .tn-atom,
+#rec705087438 .tn-elem[data-elem-id="1707497694241"] .tn-atom,
+#rec705087438 .tn-elem[data-elem-id="1707497694243"] .tn-atom,
+#rec705087438 .tn-elem[data-elem-id="1707497694225"] .tn-atom,
+#rec705087438 .tn-elem[data-elem-id="1707497694227"] .tn-atom,
+#rec705087438 .tn-elem[data-elem-id="1707497694231"] .tn-atom,
+#rec705087438 .tn-elem[data-elem-id="1707497694233"] .tn-atom {
+  color: #efe8bf !important;
+}
+
+#rec705087438 .tn-elem[data-elem-id="1707497694241"] .tn-atom,
+#rec705087438 .tn-elem[data-elem-id="1707497694225"] .tn-atom,
+#rec705087438 .tn-elem[data-elem-id="1707497694231"] .tn-atom {
+  opacity: 1 !important;
+}
+
+#rec705087438 .tn-elem[data-elem-id="1707497694217"] .tn-atom {
+  color: #efe8bf !important;
+  border-color: #efe8bf !important;
+}
+
+#rec705087438 .tn-elem[data-elem-id="1707497694217"] .tn-atom:hover {
+  color: #6e6b41 !important;
+  background-color: #efe8bf !important;
+  border-color: #efe8bf !important;
+}
+
+#rec705087438 .tn-elem[data-elem-id="1707497694219"] .tn-atom {
+  color: #efe8bf !important;
+  background-color: #9c5d3c !important;
+}
+
+#rec705087438 .tn-elem[data-elem-id="1707497694219"] .tn-atom:hover {
+  color: #9c5d3c !important;
+  background-color: #f0e9c0 !important;
+  border-color: #f0e9c0 !important;
+}
+
 /* Rental values stay centered on one line inside their three columns. */
 #rec705087438 .tn-elem[data-elem-id="1707497694243"] .tn-atom,
 #rec705087438 .tn-elem[data-elem-id="1707497694227"] .tn-atom,
