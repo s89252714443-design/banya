@@ -446,3 +446,39 @@
   background-image: none !important;
   border-color: #6e6b41 !important;
 }
+
+/* Match the 8+ person rental block to the 5-6 person rental palette. */
+#rec714017483 .tn-elem[data-elem-id="1707497694323"] .tn-atom {
+  background-color: #efe8bf !important;
+}
+
+#rec714017483 .tn-elem[data-elem-type="text"] .tn-atom {
+  color: #6e6b41 !important;
+  opacity: 1 !important;
+}
+
+#rec714017483 .tn-elem[data-elem-id="1707497694450"] .tn-atom {
+  color: #6e6b41 !important;
+  background-color: transparent !important;
+  border-color: #6e6b41 !important;
+}
+
+#rec714017483 .tn-elem[data-elem-id="1707497694450"] .tn-atom:hover {
+  color: #efe8bf !important;
+  background-color: #6e6b41 !important;
+  background-image: none !important;
+  border-color: #6e6b41 !important;
+}
+
+#rec714017483 .tn-elem[data-elem-id="1707497694452"] .tn-atom {
+  color: #efe8bf !important;
+  background-color: #6e6b41 !important;
+  border-color: #6e6b41 !important;
+}
+
+#rec714017483 .tn-elem[data-elem-id="1707497694452"] .tn-atom:hover {
+  color: #6e6b41 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  border-color: #6e6b41 !important;
+}
