@@ -191,6 +191,13 @@
   text-align: center !important;
 }
 
+/* Optical correction: the first 1px separator lands on a fractional pixel
+   after Tilda scaling and renders heavier than the second one. */
+#rec705087438 .tn-elem[data-elem-id="1707500049311"] .tn-atom {
+  transform: scaleX(0.5);
+  transform-origin: center;
+}
+
 /* Center the duration value directly under its label. Tilda's generated
    positioning rules are declared later, so these overrides must win. */
 #rec705087438 .tn-elem[data-elem-id="1707497694233"] {
