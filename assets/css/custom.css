@@ -268,3 +268,56 @@
     text-align: right !important;
   }
 }
+
+/* Keep the 5–6 person rental values on one line and aligned with labels. */
+#rec705087757 .tn-elem[data-elem-id="1707497694355"] .tn-atom,
+#rec705087757 .tn-elem[data-elem-id="1707497694336"] .tn-atom,
+#rec705087757 .tn-elem[data-elem-id="1707497694343"] .tn-atom {
+  white-space: nowrap;
+}
+
+#rec705087757 .tn-elem[data-elem-id="1707497694355"] {
+  left: calc(50% - 600px + 810px) !important;
+  width: 80px !important;
+  text-align: center !important;
+}
+
+#rec705087757 .tn-elem[data-elem-id="1707497694343"] {
+  left: calc(50% - 600px + 1048px) !important;
+  width: 102px !important;
+  text-align: center !important;
+}
+
+@media screen and (max-width: 1199px) {
+  #rec705087757 .tn-elem[data-elem-id="1707497694355"] {
+    left: calc(50% - 480px + 580px) !important;
+  }
+
+  #rec705087757 .tn-elem[data-elem-id="1707497694343"] {
+    left: calc(50% - 480px + 818px) !important;
+  }
+}
+
+@media screen and (max-width: 959px) {
+  #rec705087757 .tn-elem[data-elem-id="1707497694355"] {
+    left: calc(50% - 320px + 150px) !important;
+  }
+
+  #rec705087757 .tn-elem[data-elem-id="1707497694343"] {
+    left: calc(50% - 320px + 388px) !important;
+  }
+}
+
+@media screen and (max-width: 639px) {
+  #rec705087757 .tn-elem[data-elem-id="1707497694355"] {
+    left: calc(50% - 160px + 30px) !important;
+    width: 65px !important;
+    text-align: left !important;
+  }
+
+  #rec705087757 .tn-elem[data-elem-id="1707497694343"] {
+    left: calc(50% - 160px + 212px) !important;
+    width: 78px !important;
+    text-align: right !important;
+  }
+}
