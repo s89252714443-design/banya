@@ -178,26 +178,29 @@
   white-space: nowrap;
 }
 
-/* Keep the duration value in the same column as its label. */
+/* Align the duration value with the label's left edge. Tilda's generated
+   positioning rules are declared later, so these overrides must win. */
 #rec705087438 .tn-elem[data-elem-id="1707497694233"] {
-  left: calc(50% - 600px + 1068px);
-  width: 102px;
+  left: calc(50% - 600px + 1068px) !important;
+  width: 102px !important;
+  text-align: left !important;
 }
 
 @media screen and (max-width: 1199px) {
   #rec705087438 .tn-elem[data-elem-id="1707497694233"] {
-    left: calc(50% - 480px + 818px);
+    left: calc(50% - 480px + 818px) !important;
   }
 }
 
 @media screen and (max-width: 959px) {
   #rec705087438 .tn-elem[data-elem-id="1707497694233"] {
-    left: calc(50% - 320px + 388px);
+    left: calc(50% - 320px + 388px) !important;
   }
 }
 
 @media screen and (max-width: 639px) {
   #rec705087438 .tn-elem[data-elem-id="1707497694233"] {
-    left: calc(50% - 160px + 198px);
+    left: calc(50% - 160px + 198px) !important;
+    text-align: right !important;
   }
 }
