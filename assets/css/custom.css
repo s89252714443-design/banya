@@ -177,3 +177,27 @@
 #rec705087438 .tn-elem[data-elem-id="1707497694233"] .tn-atom {
   white-space: nowrap;
 }
+
+/* Keep the duration value in the same column as its label. */
+#rec705087438 .tn-elem[data-elem-id="1707497694233"] {
+  left: calc(50% - 600px + 1068px);
+  width: 102px;
+}
+
+@media screen and (max-width: 1199px) {
+  #rec705087438 .tn-elem[data-elem-id="1707497694233"] {
+    left: calc(50% - 480px + 818px);
+  }
+}
+
+@media screen and (max-width: 959px) {
+  #rec705087438 .tn-elem[data-elem-id="1707497694233"] {
+    left: calc(50% - 320px + 388px);
+  }
+}
+
+@media screen and (max-width: 639px) {
+  #rec705087438 .tn-elem[data-elem-id="1707497694233"] {
+    left: calc(50% - 160px + 198px);
+  }
+}
