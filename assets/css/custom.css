@@ -173,12 +173,12 @@
 
 /* Background of the rounded 4-person rental surface. */
 #rec705087438 .tn-elem[data-elem-id="1707497694212"] .tn-atom {
-  background-color: #d1c7b5 !important;
+  background-color: #6e6b41 !important;
 }
 
-/* Olive title color for the 4-person rental block. */
+/* Light title color borrowed from the wood-fired steam room card. */
 #rec705087438 .tn-elem[data-elem-id="1707497694215"] .tn-atom {
-  color: #6e6b41 !important;
+  color: #efe8bf !important;
 }
 
 /* Rental values stay centered on one line inside their three columns. */
