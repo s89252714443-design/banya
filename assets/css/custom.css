@@ -427,6 +427,11 @@
   opacity: 1 !important;
 }
 
+#rec705087757 .tn-elem[data-elem-id="1707500124146"] .tn-atom,
+#rec705087757 .tn-elem[data-elem-id="1707500124150"] .tn-atom {
+  background-color: #6e6b41 !important;
+}
+
 #rec705087757 .tn-elem[data-elem-id="1707497694450"] .tn-atom {
   color: #6e6b41 !important;
   background-color: transparent !important;
