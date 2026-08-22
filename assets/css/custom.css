@@ -209,6 +209,17 @@
   border-color: #efe8bf !important;
 }
 
+#rec705087438 .tn-elem[data-elem-id="1707497694219"] .tn-atom {
+  color: #6e6b41 !important;
+  background-color: #efe8bf !important;
+}
+
+#rec705087438 .tn-elem[data-elem-id="1707497694219"] .tn-atom:hover {
+  color: #efe8bf !important;
+  background-color: #6e6b41 !important;
+  border-color: #efe8bf !important;
+}
+
 /* Rental values stay centered on one line inside their three columns. */
 #rec705087438 .tn-elem[data-elem-id="1707497694243"] .tn-atom,
 #rec705087438 .tn-elem[data-elem-id="1707497694227"] .tn-atom,
