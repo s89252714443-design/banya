@@ -406,7 +406,11 @@
   }
 }
 
-/* Olive text throughout the 5-6 person rental block, excluding buttons. */
+/* Pale rounded surface and olive text for the 5-6 person rental block. */
+#rec705087757 .tn-elem[data-elem-id="1707497694323"] .tn-atom {
+  background-color: #efe8bf !important;
+}
+
 #rec705087757 .tn-elem[data-elem-type="text"] .tn-atom {
   color: #6e6b41 !important;
   opacity: 1 !important;
