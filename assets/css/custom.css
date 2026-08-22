@@ -482,3 +482,39 @@
   background-image: none !important;
   border-color: #6e6b41 !important;
 }
+
+/* Terracotta palette for the "Author's steaming" block. */
+#rec714018079 .tn-elem[data-elem-id="1707497694323"] .tn-atom {
+  background-color: #9c5d3c !important;
+}
+
+#rec714018079 .tn-elem[data-elem-type="text"] .tn-atom {
+  color: #efe8bf !important;
+  opacity: 1 !important;
+}
+
+#rec714018079 .tn-elem[data-elem-id="1707497694450"] .tn-atom {
+  color: #efe8bf !important;
+  background-color: transparent !important;
+  border-color: #efe8bf !important;
+}
+
+#rec714018079 .tn-elem[data-elem-id="1707497694450"] .tn-atom:hover {
+  color: #9c5d3c !important;
+  background-color: #efe8bf !important;
+  background-image: none !important;
+  border-color: #efe8bf !important;
+}
+
+#rec714018079 .tn-elem[data-elem-id="1707497694452"] .tn-atom {
+  color: #9c5d3c !important;
+  background-color: #efe8bf !important;
+  border-color: #efe8bf !important;
+}
+
+#rec714018079 .tn-elem[data-elem-id="1707497694452"] .tn-atom:hover {
+  color: #efe8bf !important;
+  background-color: #9c5d3c !important;
+  background-image: none !important;
+  border-color: #efe8bf !important;
+}
