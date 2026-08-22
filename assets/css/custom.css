@@ -171,24 +171,6 @@
   color: #101b17;
 }
 
-/* Keep both rental CTAs at the same type size. */
-#rec705087438 .tn-elem[data-elem-id="1707497694217"] .tn-atom,
-#rec705087438 .tn-elem[data-elem-id="1707497694219"] .tn-atom {
-  font-size: 12px !important;
-}
-
-/* Keep the longer cost-details CTA on one line in its 150px button. */
-#rec705087438 .tn-elem[data-elem-id="1707497694217"] .tn-atom {
-  white-space: nowrap;
-}
-
-@media screen and (max-width: 639px) {
-  #rec705087438 .tn-elem[data-elem-id="1707497694217"] .tn-atom,
-  #rec705087438 .tn-elem[data-elem-id="1707497694219"] .tn-atom {
-    font-size: 14px !important;
-  }
-}
-
 /* Rental values stay centered on one line inside their three columns. */
 #rec705087438 .tn-elem[data-elem-id="1707497694243"] .tn-atom,
 #rec705087438 .tn-elem[data-elem-id="1707497694227"] .tn-atom,
