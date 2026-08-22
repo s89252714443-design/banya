@@ -176,6 +176,11 @@
   background-color: #d1c7b5 !important;
 }
 
+/* Olive title color for the 4-person rental block. */
+#rec705087438 .tn-elem[data-elem-id="1707497694215"] .tn-atom {
+  color: #6e6b41 !important;
+}
+
 /* Rental values stay centered on one line inside their three columns. */
 #rec705087438 .tn-elem[data-elem-id="1707497694243"] .tn-atom,
 #rec705087438 .tn-elem[data-elem-id="1707497694227"] .tn-atom,
