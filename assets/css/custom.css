@@ -178,6 +178,19 @@
   white-space: nowrap;
 }
 
+/* Center the price and group values directly under their labels. */
+#rec705087438 .tn-elem[data-elem-id="1707497694243"] {
+  left: calc(50% - 600px + 830px) !important;
+  width: 80px !important;
+  text-align: center !important;
+}
+
+#rec705087438 .tn-elem[data-elem-id="1707497694227"] {
+  left: calc(50% - 600px + 965px) !important;
+  width: 49px !important;
+  text-align: center !important;
+}
+
 /* Center the duration value directly under its label. Tilda's generated
    positioning rules are declared later, so these overrides must win. */
 #rec705087438 .tn-elem[data-elem-id="1707497694233"] {
@@ -187,18 +200,44 @@
 }
 
 @media screen and (max-width: 1199px) {
+  #rec705087438 .tn-elem[data-elem-id="1707497694243"] {
+    left: calc(50% - 480px + 580px) !important;
+  }
+
+  #rec705087438 .tn-elem[data-elem-id="1707497694227"] {
+    left: calc(50% - 480px + 715px) !important;
+  }
+
   #rec705087438 .tn-elem[data-elem-id="1707497694233"] {
     left: calc(50% - 480px + 818px) !important;
   }
 }
 
 @media screen and (max-width: 959px) {
+  #rec705087438 .tn-elem[data-elem-id="1707497694243"] {
+    left: calc(50% - 320px + 150px) !important;
+  }
+
+  #rec705087438 .tn-elem[data-elem-id="1707497694227"] {
+    left: calc(50% - 320px + 285px) !important;
+  }
+
   #rec705087438 .tn-elem[data-elem-id="1707497694233"] {
     left: calc(50% - 320px + 388px) !important;
   }
 }
 
 @media screen and (max-width: 639px) {
+  #rec705087438 .tn-elem[data-elem-id="1707497694243"] {
+    left: calc(50% - 160px + 20px) !important;
+    text-align: left !important;
+  }
+
+  #rec705087438 .tn-elem[data-elem-id="1707497694227"] {
+    left: calc(50% - 160px + 141px) !important;
+    width: 38px !important;
+  }
+
   #rec705087438 .tn-elem[data-elem-id="1707497694233"] {
     left: calc(50% - 160px + 198px) !important;
     text-align: right !important;
