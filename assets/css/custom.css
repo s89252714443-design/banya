@@ -186,9 +186,18 @@
 }
 
 #rec705087438 .tn-elem[data-elem-id="1707497694227"] {
-  left: calc(50% - 600px + 965px) !important;
-  width: 49px !important;
+  left: calc(50% - 600px + 950px) !important;
+  width: 78px !important;
   text-align: center !important;
+}
+
+/* Keep the separators centered in the gaps between the three columns. */
+#rec705087438 .tn-elem[data-elem-id="1707500049311"] {
+  left: calc(50% - 600px + 930px) !important;
+}
+
+#rec705087438 .tn-elem[data-elem-id="1707500110840"] {
+  left: calc(50% - 600px + 1054px) !important;
 }
 
 /* Center the duration value directly under its label. Tilda's generated
@@ -205,7 +214,15 @@
   }
 
   #rec705087438 .tn-elem[data-elem-id="1707497694227"] {
-    left: calc(50% - 480px + 715px) !important;
+    left: calc(50% - 480px + 700px) !important;
+  }
+
+  #rec705087438 .tn-elem[data-elem-id="1707500049311"] {
+    left: calc(50% - 480px + 680px) !important;
+  }
+
+  #rec705087438 .tn-elem[data-elem-id="1707500110840"] {
+    left: calc(50% - 480px + 804px) !important;
   }
 
   #rec705087438 .tn-elem[data-elem-id="1707497694233"] {
@@ -219,7 +236,15 @@
   }
 
   #rec705087438 .tn-elem[data-elem-id="1707497694227"] {
-    left: calc(50% - 320px + 285px) !important;
+    left: calc(50% - 320px + 270px) !important;
+  }
+
+  #rec705087438 .tn-elem[data-elem-id="1707500049311"] {
+    left: calc(50% - 320px + 250px) !important;
+  }
+
+  #rec705087438 .tn-elem[data-elem-id="1707500110840"] {
+    left: calc(50% - 320px + 374px) !important;
   }
 
   #rec705087438 .tn-elem[data-elem-id="1707497694233"] {
@@ -234,8 +259,16 @@
   }
 
   #rec705087438 .tn-elem[data-elem-id="1707497694227"] {
-    left: calc(50% - 160px + 141px) !important;
-    width: 38px !important;
+    left: calc(50% - 160px + 124px) !important;
+    width: 72px !important;
+  }
+
+  #rec705087438 .tn-elem[data-elem-id="1707500049311"] {
+    left: calc(50% - 160px + 113px) !important;
+  }
+
+  #rec705087438 .tn-elem[data-elem-id="1707500110840"] {
+    left: calc(50% - 160px + 206px) !important;
   }
 
   #rec705087438 .tn-elem[data-elem-id="1707497694233"] {
