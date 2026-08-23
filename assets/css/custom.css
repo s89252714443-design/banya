@@ -650,6 +650,11 @@
   border-color: #efe8bf !important;
 }
 
+/* Unified olive text in the payment statement section. */
+#rec704125460 .tn-elem[data-elem-type="text"] .tn-atom {
+  color: #6e6b41 !important;
+}
+
 /* Readable supporting copy in the group-programs section. */
 #rec704125460 .tn-elem[data-elem-id="1707495635578"],
 #rec704125460 .tn-elem[data-elem-id="1707495634411"] {
