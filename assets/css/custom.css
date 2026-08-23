@@ -257,9 +257,20 @@
   opacity: 1 !important;
 }
 
-#rec703981321 .tn-elem[data-elem-id="1707480309348"] .tn-atom,
-#rec703981321 .tn-elem[data-elem-id="1707480309353"] .tn-atom {
+#rec703981321 .tn-elem[data-elem-id="1707480309348"] .tn-atom {
+  opacity: 1 !important;
+}
+
+#rec703981321 .pine-fade-step--more {
   opacity: 0.7 !important;
+}
+
+#rec703981321 .pine-fade-step--here {
+  opacity: 0.5 !important;
+}
+
+#rec703981321 .tn-elem[data-elem-id="1707480309353"] .tn-atom {
+  opacity: 0.3 !important;
 }
 
 /* Optical correction: the first 1px separator lands on a fractional pixel
