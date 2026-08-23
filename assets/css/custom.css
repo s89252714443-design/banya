@@ -882,7 +882,7 @@
 #rec707672740 .footer-banya-logo {
   position: absolute;
   top: 350px;
-  left: calc(50% - 600px - 30px);
+  left: calc(50% - 600px - 110px);
   z-index: 90;
   width: 500px;
   height: 363px;
@@ -905,7 +905,7 @@
 @media screen and (max-width: 1199px) {
   #rec707672740 .footer-banya-logo {
     top: 345px;
-    left: calc(50% - 480px - 20px);
+    left: calc(50% - 480px - 80px);
     width: 400px;
     height: 290px;
   }
