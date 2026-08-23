@@ -818,3 +818,18 @@
   color: #6e6b41 !important;
   opacity: 1 !important;
 }
+
+/* Keep all footer copy above the decorative layers and in one cream tone. */
+#rec707672740 .tn-elem[data-elem-type="text"] {
+  z-index: 100 !important;
+}
+
+#rec707672740 .tn-elem[data-elem-type="text"] .tn-atom {
+  color: #efe8bf !important;
+  opacity: 1 !important;
+}
+
+/* Buttons also stay above the decoration, while retaining dark text on cream. */
+#rec707672740 .tn-elem[data-elem-type="button"] {
+  z-index: 100 !important;
+}
