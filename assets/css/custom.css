@@ -765,3 +765,16 @@
 #rec705189386 {
   display: none !important;
 }
+
+/* Founder story heading: olive title with a softer final line. */
+#rec705267831 .tn-elem[data-elem-id="1707755208434"] .tn-atom,
+#rec705267831 .tn-elem[data-elem-id="1707755208424"] .tn-atom,
+#rec705267831 .tn-elem[data-elem-id="1707755208430"] .tn-atom,
+#rec705267831 .tn-elem[data-elem-id="1709345474417"] .tn-atom {
+  color: #6e6b41 !important;
+}
+
+#rec705267831 .tn-elem[data-elem-id="1707755208430"] .tn-atom,
+#rec705267831 .founder-heading-fade {
+  opacity: 0.7 !important;
+}
