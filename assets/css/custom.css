@@ -842,3 +842,39 @@
 #rec707672740 .tn-elem[data-elem-id="1708171614898"] .tn-atom {
   white-space: nowrap;
 }
+
+/* Give the updated footer links enough room and prevent legal links overlap. */
+#rec707672740 .tn-elem[data-elem-id="1708171614926"] {
+  width: 80px !important;
+}
+
+#rec707672740 .tn-elem[data-elem-id="1708171614928"] {
+  width: 180px !important;
+}
+
+#rec707672740 .tn-elem[data-elem-id="1708171614947"] {
+  width: 190px !important;
+}
+
+#rec707672740 .tn-elem[data-elem-id="1708171614949"] {
+  top: 489px !important;
+  width: 220px !important;
+}
+
+@media screen and (max-width: 1199px) {
+  #rec707672740 .tn-elem[data-elem-id="1708171614949"] {
+    top: 470px !important;
+  }
+}
+
+@media screen and (max-width: 959px) {
+  #rec707672740 .tn-elem[data-elem-id="1708171614949"] {
+    top: 345px !important;
+  }
+}
+
+@media screen and (max-width: 639px) {
+  #rec707672740 .tn-elem[data-elem-id="1708171614949"] {
+    top: 530px !important;
+  }
+}
