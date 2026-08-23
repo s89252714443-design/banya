@@ -794,6 +794,11 @@
   text-transform: none !important;
 }
 
+#rec705267831 .tn-elem[data-elem-id="1707755208447"] .tn-atom,
+#rec705267831 .tn-elem[data-elem-id="1707755208441"] .tn-atom {
+  color: #4a3428 !important;
+}
+
 #rec705267831 .tn-elem[data-elem-id="1707755208441"] {
   width: 150px !important;
 }
