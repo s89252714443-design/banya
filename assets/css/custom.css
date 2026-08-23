@@ -881,11 +881,11 @@
 /* Large footer logo in the open lower-left area. */
 #rec707672740 .footer-banya-logo {
   position: absolute;
-  top: 390px;
-  left: calc(50% - 600px + 50px);
+  top: 350px;
+  left: calc(50% - 600px - 30px);
   z-index: 90;
-  width: 300px;
-  height: 218px;
+  width: 500px;
+  height: 363px;
 }
 
 #rec707672740 .footer-banya-logo .tn-atom {
@@ -904,27 +904,27 @@
 
 @media screen and (max-width: 1199px) {
   #rec707672740 .footer-banya-logo {
-    top: 365px;
-    left: calc(50% - 480px + 30px);
-    width: 240px;
-    height: 174px;
+    top: 345px;
+    left: calc(50% - 480px - 20px);
+    width: 400px;
+    height: 290px;
   }
 }
 
 @media screen and (max-width: 959px) {
   #rec707672740 .footer-banya-logo {
-    top: 390px;
-    left: calc(50% - 320px + 30px);
-    width: 170px;
-    height: 123px;
+    top: 375px;
+    left: calc(50% - 320px - 5px);
+    width: 270px;
+    height: 196px;
   }
 }
 
 @media screen and (max-width: 639px) {
   #rec707672740 .footer-banya-logo {
-    top: 790px;
-    left: calc(50% - 160px + 80px);
-    width: 160px;
-    height: 116px;
+    top: 785px;
+    left: calc(50% - 160px + 60px);
+    width: 200px;
+    height: 145px;
   }
 }
