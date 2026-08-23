@@ -748,3 +748,20 @@
   }
 
 }
+/* Removed ritual and shaman presentation sequence. Keep the first record as a
+   zero-height sentinel because the preceding sticky cards use it as a stop. */
+#rec705094693 {
+  height: 0 !important;
+  min-height: 0 !important;
+  overflow: hidden !important;
+}
+
+#rec705094693 > * {
+  display: none !important;
+}
+
+#rec714417321,
+#rec714419507,
+#rec705189386 {
+  display: none !important;
+}
