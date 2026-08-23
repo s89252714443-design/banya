@@ -881,7 +881,7 @@
 /* Large footer logo in the open lower-left area. */
 #rec707672740 .footer-banya-logo {
   position: absolute;
-  top: 350px;
+  top: 500px;
   left: calc(50% - 600px - 110px);
   z-index: 90;
   width: 500px;
