@@ -811,11 +811,7 @@
   filter: brightness(0.82);
 }
 
-/* Match the preparation intro surface and copy to the 5-6 person rental palette. */
-#rec705275554 .tn-elem[data-elem-id="1707755986585"] .tn-atom {
-  background-color: #efe8bf !important;
-}
-
+/* Match the preparation intro copy to the 5-6 person rental palette. */
 #rec705275554 .tn-elem[data-elem-id="1707755986607"] .tn-atom,
 #rec705275554 .tn-elem[data-elem-id="1707755986611"] .tn-atom,
 #rec705275554 .tn-elem[data-elem-id="1707755986619"] .tn-atom {
