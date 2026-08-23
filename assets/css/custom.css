@@ -509,6 +509,39 @@
   opacity: 1 !important;
 }
 
+/* Keep the updated author-steaming values on one line and aligned. */
+#rec714018079 .tn-elem[data-elem-id="1707497694355"] .tn-atom,
+#rec714018079 .tn-elem[data-elem-id="1707497694336"] .tn-atom,
+#rec714018079 .tn-elem[data-elem-id="1707497694343"] .tn-atom {
+  white-space: nowrap;
+}
+
+#rec714018079 .tn-elem[data-elem-id="1707497694343"] {
+  left: calc(50% - 600px + 1048px) !important;
+  width: 102px !important;
+  text-align: center !important;
+}
+
+@media screen and (max-width: 1199px) {
+  #rec714018079 .tn-elem[data-elem-id="1707497694343"] {
+    left: calc(50% - 480px + 818px) !important;
+  }
+}
+
+@media screen and (max-width: 959px) {
+  #rec714018079 .tn-elem[data-elem-id="1707497694343"] {
+    left: calc(50% - 320px + 388px) !important;
+  }
+}
+
+@media screen and (max-width: 639px) {
+  #rec714018079 .tn-elem[data-elem-id="1707497694343"] {
+    left: calc(50% - 160px + 212px) !important;
+    width: 78px !important;
+    text-align: right !important;
+  }
+}
+
 #rec714018079 .tn-elem[data-elem-id="1707497694450"] .tn-atom {
   color: #efe8bf !important;
   background-color: transparent !important;
