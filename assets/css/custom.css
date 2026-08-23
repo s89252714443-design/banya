@@ -627,3 +627,53 @@
   background-image: none !important;
   border-color: #efe8bf !important;
 }
+
+/* Expanded value message below the group-programs heading. */
+#rec704125460 .tn-elem[data-elem-id="1707495635578"] {
+  left: calc(50% - 600px + 220px) !important;
+  width: 760px !important;
+  text-align: center !important;
+}
+
+#rec704125460 .tn-elem[data-elem-id="1707495634411"] {
+  top: 432px !important;
+  left: calc(50% - 600px + 400px) !important;
+  width: 400px !important;
+  text-align: center !important;
+}
+
+@media screen and (max-width: 1199px) {
+  #rec704125460 .tn-elem[data-elem-id="1707495635578"] {
+    left: calc(50% - 480px + 100px) !important;
+  }
+
+  #rec704125460 .tn-elem[data-elem-id="1707495634411"] {
+    top: 490px !important;
+    left: calc(50% - 480px + 280px) !important;
+  }
+}
+
+@media screen and (max-width: 959px) {
+  #rec704125460 .tn-elem[data-elem-id="1707495635578"] {
+    left: calc(50% - 320px + 60px) !important;
+    width: 520px !important;
+  }
+
+  #rec704125460 .tn-elem[data-elem-id="1707495634411"] {
+    top: 405px !important;
+    left: calc(50% - 320px + 120px) !important;
+  }
+}
+
+@media screen and (max-width: 639px) {
+  #rec704125460 .tn-elem[data-elem-id="1707495635578"] {
+    left: calc(50% - 160px + 15px) !important;
+    width: 290px !important;
+  }
+
+  #rec704125460 .tn-elem[data-elem-id="1707495634411"] {
+    top: 338px !important;
+    left: calc(50% - 160px + 15px) !important;
+    width: 290px !important;
+  }
+}
