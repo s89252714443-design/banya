@@ -257,6 +257,11 @@
   opacity: 1 !important;
 }
 
+#rec703981321 .tn-elem[data-elem-id="1707480309348"] .tn-atom,
+#rec703981321 .tn-elem[data-elem-id="1707480309353"] .tn-atom {
+  opacity: 0.7 !important;
+}
+
 /* Optical correction: the first 1px separator lands on a fractional pixel
    after Tilda scaling and renders heavier than the second one. */
 #rec705087438 .tn-elem[data-elem-id="1707500049311"] .tn-atom {
