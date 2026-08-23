@@ -509,6 +509,11 @@
   opacity: 1 !important;
 }
 
+#rec714018079 .tn-elem[data-elem-id="1707500124146"] .tn-atom,
+#rec714018079 .tn-elem[data-elem-id="1707500124150"] .tn-atom {
+  background-color: #efe8bf !important;
+}
+
 /* Keep the updated author-steaming values on one line and aligned. */
 #rec714018079 .tn-elem[data-elem-id="1707497694355"] .tn-atom,
 #rec714018079 .tn-elem[data-elem-id="1707497694336"] .tn-atom,
