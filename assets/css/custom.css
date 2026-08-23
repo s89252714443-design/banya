@@ -802,3 +802,11 @@
 #rec705267831 .tn-elem[data-elem-id="1707755208441"] {
   width: 150px !important;
 }
+
+/* Slightly darken the preparation photos so their overlaid captions stay clear. */
+#rec705275554 .tn-elem[data-elem-id="1707755986625"] .tn-atom,
+#rec705275554 .tn-elem[data-elem-id="1707755986637"] .tn-atom,
+#rec705275554 .tn-elem[data-elem-id="1707755986646"] .tn-atom,
+#rec705275554 .tn-elem[data-elem-id="1707755986655"] .tn-atom {
+  filter: brightness(0.82);
+}
