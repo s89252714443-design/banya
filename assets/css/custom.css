@@ -818,3 +818,23 @@
   color: #6e6b41 !important;
   opacity: 1 !important;
 }
+
+/* Light footer-style treatment matching the founder story section. */
+#rec707672740 .tn-elem[data-elem-type="text"] .tn-atom {
+  color: #364a46 !important;
+}
+
+#rec707672740 .tn-elem[data-elem-id="1708171614901"] .tn-atom {
+  color: #a4aa9d !important;
+  opacity: 1 !important;
+}
+
+#rec707672740 .tn-elem[data-elem-id="1708171614908"] .tn-atom,
+#rec707672740 .tn-elem[data-elem-id="1708171614911"] .tn-atom {
+  color: #a4aa9d !important;
+}
+
+#rec707672740 .tn-elem[data-elem-id="1708171614961"] .tn-atom:hover,
+#rec707672740 .tn-elem[data-elem-id="1708171614963"] .tn-atom:hover {
+  color: #efe8bf !important;
+}
