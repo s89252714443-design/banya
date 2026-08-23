@@ -627,3 +627,95 @@
   background-image: none !important;
   border-color: #efe8bf !important;
 }
+
+/* Readable supporting copy in the group-programs section. */
+#rec704125460 .tn-elem[data-elem-id="1707495635578"],
+#rec704125460 .tn-elem[data-elem-id="1707495634411"] {
+  left: calc(50% - 600px + 601px) !important;
+  width: 420px !important;
+  text-align: left !important;
+}
+
+#rec704125460 .tn-elem[data-elem-id="1707495635578"] {
+  top: 402px !important;
+}
+
+#rec704125460 .tn-elem[data-elem-id="1707495634411"] {
+  top: 448px !important;
+}
+
+#rec704125460 .tn-elem[data-elem-id="1707495635578"] .tn-atom,
+#rec704125460 .tn-elem[data-elem-id="1707495634411"] .tn-atom {
+  font-size: 13px !important;
+  line-height: 1.35 !important;
+  letter-spacing: 0 !important;
+}
+
+#rec704125460 .tn-elem[data-elem-id="1707495634411"] .tn-atom {
+  font-weight: 600 !important;
+}
+
+@media screen and (max-width: 1199px) {
+  #rec704125460 .tn-elem[data-elem-id="1707495635578"],
+  #rec704125460 .tn-elem[data-elem-id="1707495634411"] {
+    left: calc(50% - 480px + 481px) !important;
+    width: 400px !important;
+  }
+
+  #rec704125460 .tn-elem[data-elem-id="1707495635578"] {
+    top: 460px !important;
+  }
+
+  #rec704125460 .tn-elem[data-elem-id="1707495634411"] {
+    top: 506px !important;
+  }
+}
+
+@media screen and (max-width: 959px) {
+  #rec704125460 .t396__artboard,
+  #rec704125460 .t396__filter,
+  #rec704125460 .t396__carrier {
+    height: 458px !important;
+  }
+
+  #rec704125460 .tn-elem[data-elem-id="1707495635578"],
+  #rec704125460 .tn-elem[data-elem-id="1707495634411"] {
+    left: calc(50% - 320px + 320px) !important;
+    width: 290px !important;
+  }
+
+  #rec704125460 .tn-elem[data-elem-id="1707495635578"] {
+    top: 374px !important;
+  }
+
+  #rec704125460 .tn-elem[data-elem-id="1707495634411"] {
+    top: 422px !important;
+  }
+
+  #rec704125460 .tn-elem[data-elem-id="1707495635578"] .tn-atom,
+  #rec704125460 .tn-elem[data-elem-id="1707495634411"] .tn-atom {
+    font-size: 11px !important;
+  }
+}
+
+@media screen and (max-width: 639px) {
+  #rec704125460 .t396__artboard,
+  #rec704125460 .t396__filter,
+  #rec704125460 .t396__carrier {
+    height: 382px !important;
+  }
+
+  #rec704125460 .tn-elem[data-elem-id="1707495635578"],
+  #rec704125460 .tn-elem[data-elem-id="1707495634411"] {
+    left: calc(50% - 160px + 15px) !important;
+    width: 290px !important;
+  }
+
+  #rec704125460 .tn-elem[data-elem-id="1707495635578"] {
+    top: 296px !important;
+  }
+
+  #rec704125460 .tn-elem[data-elem-id="1707495634411"] {
+    top: 346px !important;
+  }
+}
