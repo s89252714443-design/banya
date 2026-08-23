@@ -514,27 +514,9 @@
   background-color: #efe8bf !important;
 }
 
-/* Optical centering between the longer group value and duration column. */
+/* Move the right separator to the right from its original Tilda position. */
 #rec714018079 .tn-elem[data-elem-id="1707500124150"] {
-  left: calc(50% - 600px + 1034px) !important;
-}
-
-@media screen and (max-width: 1199px) {
-  #rec714018079 .tn-elem[data-elem-id="1707500124150"] {
-    left: calc(50% - 480px + 804px) !important;
-  }
-}
-
-@media screen and (max-width: 959px) {
-  #rec714018079 .tn-elem[data-elem-id="1707500124150"] {
-    left: calc(50% - 320px + 374px) !important;
-  }
-}
-
-@media screen and (max-width: 639px) {
-  #rec714018079 .tn-elem[data-elem-id="1707500124150"] {
-    left: calc(50% - 160px + 207px) !important;
-  }
+  transform: translateX(12px) !important;
 }
 
 /* Keep the updated author-steaming values on one line and aligned. */
