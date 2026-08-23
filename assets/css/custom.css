@@ -632,8 +632,8 @@
 #rec704125460 .tn-elem[data-elem-id="1707495635578"],
 #rec704125460 .tn-elem[data-elem-id="1707495634411"] {
   left: calc(50% - 600px + 601px) !important;
-  width: 420px !important;
-  text-align: left !important;
+  width: 460px !important;
+  text-align: right !important;
 }
 
 #rec704125460 .tn-elem[data-elem-id="1707495635578"] {
@@ -656,7 +656,7 @@
   #rec704125460 .tn-elem[data-elem-id="1707495635578"],
   #rec704125460 .tn-elem[data-elem-id="1707495634411"] {
     left: calc(50% - 480px + 481px) !important;
-    width: 400px !important;
+    width: 440px !important;
   }
 
   #rec704125460 .tn-elem[data-elem-id="1707495635578"] {
