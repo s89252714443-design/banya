@@ -778,3 +778,14 @@
 #rec705267831 .founder-heading-fade {
   opacity: 0.7 !important;
 }
+
+#rec705267831 .tn-elem[data-elem-id="1707755208459"] .tn-atom,
+#rec705267831 .tn-elem[data-elem-id="1707755208474"] .tn-atom {
+  color: #4a3428 !important;
+}
+
+@media screen and (max-width: 639px) {
+  #rec705267831 .founder-copy-break {
+    display: none;
+  }
+}
