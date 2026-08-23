@@ -252,7 +252,8 @@
 }
 
 /* Match the pine-window statement section to the 5-6 person rental palette. */
-#rec703981321 .t396__artboard {
+#rec703981321 .t396__artboard,
+#rec703981321 .tn-elem[data-elem-id="1707480309280"] .tn-atom {
   background-color: #efe8bf !important;
 }
 
