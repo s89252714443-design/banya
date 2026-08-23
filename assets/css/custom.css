@@ -856,10 +856,24 @@
   width: 190px !important;
 }
 
+#rec707672740 .tn-elem[data-elem-id="1708171614942"] {
+  width: 160px !important;
+}
+
+#rec707672740 .tn-elem[data-elem-id="1708171614942"] .tn-atom {
+  white-space: nowrap;
+}
+
 #rec707672740 .tn-elem[data-elem-id="1708171614956"] {
   width: 180px !important;
 }
 
 #rec707672740 .tn-elem[data-elem-id="1708171614956"] .tn-atom {
   white-space: nowrap;
+}
+
+@media screen and (max-width: 639px) {
+  #rec707672740 .tn-elem[data-elem-id="1708171614942"] {
+    left: calc(50% - 160px + 80px) !important;
+  }
 }
