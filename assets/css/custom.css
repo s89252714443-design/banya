@@ -833,3 +833,12 @@
 #rec707672740 .tn-elem[data-elem-type="button"] {
   z-index: 100 !important;
 }
+
+/* Keep the final footer heading phrase on one line. */
+#rec707672740 .tn-elem[data-elem-id="1708171614898"] {
+  width: 650px !important;
+}
+
+#rec707672740 .tn-elem[data-elem-id="1708171614898"] .tn-atom {
+  white-space: nowrap;
+}
