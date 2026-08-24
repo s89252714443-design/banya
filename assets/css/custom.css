@@ -928,3 +928,13 @@
     height: 145px;
   }
 }
+
+/* Shared accent hover state for the footer contact buttons. */
+#rec707672740 .tn-elem[data-elem-id="1708171614961"] .tn-atom:hover,
+#rec707672740 .tn-elem[data-elem-id="1708171614963"] .tn-atom:hover,
+#rec707672740 .tn-elem[data-elem-id="1708171614961"] .tn-atom:focus-visible,
+#rec707672740 .tn-elem[data-elem-id="1708171614963"] .tn-atom:focus-visible {
+  color: #efe8bf !important;
+  background-color: #9c5d3c !important;
+  border-color: #9c5d3c !important;
+}
