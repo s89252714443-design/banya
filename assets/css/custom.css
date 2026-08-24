@@ -938,3 +938,11 @@
   background-color: #9c5d3c !important;
   border-color: #9c5d3c !important;
 }
+
+/* Accent hover state for the external reviews button. */
+#rec707667762 .tn-elem[data-elem-id="1708170404137"] .tn-atom:hover,
+#rec707667762 .tn-elem[data-elem-id="1708170404137"] .tn-atom:focus-visible {
+  color: #efe8bf !important;
+  background-color: #9c5d3c !important;
+  border-color: #9c5d3c !important;
+}
