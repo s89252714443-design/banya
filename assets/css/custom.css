@@ -867,14 +867,18 @@
   }
 }
 
-/* Large footer logo in the open lower-left area. */
+/* Large footer logo in the open lower-left area.
+   Tilda scales zero-block elements with `zoom: var(--zoom)` (screen width / grid
+   width), so the logo uses the same zoom and grid units (1200 / 960 / 640 / 320)
+   to stay in place next to the text on any monitor. */
 #rec707672740 .footer-banya-logo {
   position: absolute;
-  top: 400px;
-  left: calc(50% - 600px - 110px);
+  zoom: var(--zoom, 1);
+  top: 315px;
+  left: 40px;
   z-index: 90;
-  width: 500px;
-  height: 363px;
+  width: 395px;
+  height: 287px;
 }
 
 #rec707672740 .footer-banya-logo .tn-atom {
@@ -894,7 +898,7 @@
 @media screen and (max-width: 1199px) {
   #rec707672740 .footer-banya-logo {
     top: 345px;
-    left: calc(50% - 480px - 80px);
+    left: -80px;
     width: 400px;
     height: 290px;
   }
@@ -903,7 +907,7 @@
 @media screen and (max-width: 959px) {
   #rec707672740 .footer-banya-logo {
     top: 375px;
-    left: calc(50% - 320px - 5px);
+    left: -5px;
     width: 270px;
     height: 196px;
   }
@@ -912,7 +916,7 @@
 @media screen and (max-width: 639px) {
   #rec707672740 .footer-banya-logo {
     top: 785px;
-    left: calc(50% - 160px + 60px);
+    left: 60px;
     width: 200px;
     height: 145px;
   }
