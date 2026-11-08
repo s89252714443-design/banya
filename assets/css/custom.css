@@ -868,17 +868,21 @@
 }
 
 /* Large footer logo in the open lower-left area.
-   Tilda scales zero-block elements with `zoom: var(--zoom)` (screen width / grid
-   width), so the logo uses the same zoom and grid units (1200 / 960 / 640 / 320)
-   to stay in place next to the text on any monitor. */
+   Tilda scales zero-block elements by --zoom (screen width / grid width): newer
+   Chrome via the `zoom` property, other browsers via calc(value * var(--zoom)).
+   The logo uses explicit calc() so it scales identically in every browser.
+   Values are in grid units (1200 / 960 / 640 / 320), like data-field-* attributes. */
 #rec707672740 .footer-banya-logo {
+  --logo-top: 315px;
+  --logo-left: 40px;
+  --logo-width: 395px;
+  --logo-height: 287px;
   position: absolute;
-  zoom: var(--zoom, 1);
-  top: 315px;
-  left: 40px;
+  top: calc(var(--logo-top) * var(--zoom, 1));
+  left: calc(var(--logo-left) * var(--zoom, 1));
   z-index: 90;
-  width: 395px;
-  height: 287px;
+  width: calc(var(--logo-width) * var(--zoom, 1));
+  height: calc(var(--logo-height) * var(--zoom, 1));
 }
 
 #rec707672740 .footer-banya-logo .tn-atom {
@@ -897,28 +901,28 @@
 
 @media screen and (max-width: 1199px) {
   #rec707672740 .footer-banya-logo {
-    top: 345px;
-    left: -80px;
-    width: 400px;
-    height: 290px;
+    --logo-top: 345px;
+    --logo-left: -80px;
+    --logo-width: 400px;
+    --logo-height: 290px;
   }
 }
 
 @media screen and (max-width: 959px) {
   #rec707672740 .footer-banya-logo {
-    top: 375px;
-    left: -5px;
-    width: 270px;
-    height: 196px;
+    --logo-top: 375px;
+    --logo-left: -5px;
+    --logo-width: 270px;
+    --logo-height: 196px;
   }
 }
 
 @media screen and (max-width: 639px) {
   #rec707672740 .footer-banya-logo {
-    top: 785px;
-    left: 60px;
-    width: 200px;
-    height: 145px;
+    --logo-top: 785px;
+    --logo-left: 60px;
+    --logo-width: 200px;
+    --logo-height: 145px;
   }
 }
 
