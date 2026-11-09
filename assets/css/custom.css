@@ -864,3 +864,28 @@
   background-color: #9c5d3c !important;
   border-color: #9c5d3c !important;
 }
+
+/* Запасное окно бронирования (#popup:myform), пока не подключён виджет YCLIENTS */
+#rec718107717 .t390__title {
+  margin-bottom: 16px;
+  font-size: 30px;
+  line-height: 1.15;
+}
+#rec718107717 .booking-fallback {
+  font-size: 16px;
+  line-height: 1.55;
+}
+#rec718107717 .booking-fallback__phone {
+  display: inline-block;
+  margin-top: 14px;
+  color: #6E6B41;
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+}
+@media screen and (max-width: 639px) {
+  #rec718107717 .t390__title { font-size: 24px; }
+  #rec718107717 .booking-fallback { font-size: 15px; }
+  #rec718107717 .booking-fallback__phone { font-size: 21px; }
+}
